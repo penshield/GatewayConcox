@@ -1,0 +1,412 @@
+18_9_14
+[18/09/2014 16:54:45] - Iniciando nova instancia do programa GatewayCalamp...
+
+[18/09/2014 16:54:45] - [COMANDOS] - Iniciando Thread!
+[18/09/2014 16:54:46] - [InsereBanco] - Iniciando Thread!
+[18/09/2014 16:54:46] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:54:46] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 16:54:50] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:54:55] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:55:00] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:55:01] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 16:55:01] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 16:55:05] - [InsereBanco] - Fila com 1 registros!
+[18/09/2014 16:55:05] - 
+----- Inserindo no Banco (1 registros para processar) -----
+Id=381 HoraMsg=2014-9-15 19:58:38 Sat=10
+
+[18/09/2014 16:55:10] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:55:15] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:55:20] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:55:25] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:55:30] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:55:58] - Iniciando nova instancia do programa GatewayCalamp...
+
+[18/09/2014 16:55:58] - [COMANDOS] - Iniciando Thread!
+[18/09/2014 16:55:59] - [InsereBanco] - Iniciando Thread!
+[18/09/2014 16:55:59] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:55:59] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 16:56:03] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:56:08] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:56:13] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:56:18] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:56:21] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 16:56:21] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 16:56:23] - [InsereBanco] - Fila com 1 registros!
+[18/09/2014 16:56:23] - insert into tbdados (`id`, `data`, `hora`, `lat`, `lon`, `sat`, `gps`, `cerca`, `vel`, `ign`, `pan`, `ent1`, `saidas1`, `msg`, `h_link`, `evento`, `ip`, `codigo`, `dataehora`, `endereco`, `antifurto`, `temp`, `outros`) values (381, null, null, '-1.296874', '-48.152357', '10', 'Atualizado', null, 0, 'Desligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 19:58:38', 'Obtendo', null, null, null);
+[18/09/2014 16:56:24] - 
+----- Inserindo no Banco (1 registros para processar) -----
+Id=381 HoraMsg=2014-9-15 19:58:38 Sat=10
+
+[18/09/2014 16:56:29] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:56:34] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:56:39] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:56:44] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:56:49] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:56:54] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:56:59] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:57:04] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:57:09] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:57:14] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:58:11] - Iniciando nova instancia do programa GatewayCalamp...
+
+[18/09/2014 16:58:12] - [COMANDOS] - Iniciando Thread!
+[18/09/2014 16:58:12] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 16:58:12] - [InsereBanco] - Iniciando Thread!
+[18/09/2014 16:58:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:58:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:58:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:58:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:58:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:58:34] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 16:58:34] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 16:58:37] - [InsereBanco] - Fila com 1 registros!
+[18/09/2014 16:58:37] - insert into tbdados (`id`, `data`, `hora`, `lat`, `lon`, `sat`, `gps`, `cerca`, `vel`, `ign`, `pan`, `ent1`, `saidas1`, `msg`, `h_link`, `evento`, `ip`, `codigo`, `dataehora`, `endereco`, `antifurto`, `temp`, `outros`) values (381, null, null, '-1.296874', '-48.152357', '10', 'Atualizado', null, 0, 'Desligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 19:58:38', 'Obtendo', null, null, null);
+[18/09/2014 16:58:37] - 
+----- Inserindo no Banco (1 registros para processar) -----
+Id=381 HoraMsg=2014-9-15 19:58:38 Sat=10
+
+[18/09/2014 16:58:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:58:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:58:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:58:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:59:02] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:59:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:59:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:59:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:59:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:59:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:59:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:59:35] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 16:59:35] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 16:59:35] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 16:59:35] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 16:59:36] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 16:59:36] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 16:59:37] - [InsereBanco] - Fila com 3 registros!
+[18/09/2014 16:59:37] - insert into tbdados (`id`, `data`, `hora`, `lat`, `lon`, `sat`, `gps`, `cerca`, `vel`, `ign`, `pan`, `ent1`, `saidas1`, `msg`, `h_link`, `evento`, `ip`, `codigo`, `dataehora`, `endereco`, `antifurto`, `temp`, `outros`) values (381, null, null, '-1.296874', '-48.152357', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:20:02', 'Obtendo', null, null, null),(381, null, null, '-1.296874', '-48.152357', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:20:02', 'Obtendo', null, null, null),(381, null, null, '-1.296874', '-48.152357', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:20:02', 'Obtendo', null, null, null);
+[18/09/2014 16:59:37] - 
+----- Inserindo no Banco (3 registros para processar) -----
+Id=381 HoraMsg=2014-9-15 22:20:02 Sat=10
+Id=381 HoraMsg=2014-9-15 22:20:02 Sat=10
+Id=381 HoraMsg=2014-9-15 22:20:02 Sat=10
+
+[18/09/2014 16:59:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:59:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:59:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 16:59:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:00:02] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:00:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:00:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:00:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:00:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:00:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:00:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:00:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:00:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:00:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:00:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:00:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:01:02] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:01:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:01:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:01:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:01:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:01:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:01:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:01:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:01:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:01:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:01:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:01:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:02:00] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:02:00] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:02:01] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:02:01] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:02:01] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:02:01] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:02:02] - [InsereBanco] - Fila com 3 registros!
+[18/09/2014 17:02:02] - insert into tbdados (`id`, `data`, `hora`, `lat`, `lon`, `sat`, `gps`, `cerca`, `vel`, `ign`, `pan`, `ent1`, `saidas1`, `msg`, `h_link`, `evento`, `ip`, `codigo`, `dataehora`, `endereco`, `antifurto`, `temp`, `outros`) values (67, null, null, '-1.297642', '-47.958932', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:21:20', 'Obtendo', null, null, null),(67, null, null, '-1.297642', '-47.958932', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:21:20', 'Obtendo', null, null, null),(67, null, null, '-1.297642', '-47.958932', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:21:20', 'Obtendo', null, null, null);
+[18/09/2014 17:02:02] - 
+----- Inserindo no Banco (3 registros para processar) -----
+Id=67 HoraMsg=2014-9-15 22:21:20 Sat=10
+Id=67 HoraMsg=2014-9-15 22:21:20 Sat=10
+Id=67 HoraMsg=2014-9-15 22:21:20 Sat=10
+
+[18/09/2014 17:02:02] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:02:02] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:02:03] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:02:03] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:02:03] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:02:03] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:02:04] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:02:04] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:02:04] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:02:04] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:02:05] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:02:05] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:02:05] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:02:05] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:02:06] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:02:06] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:02:06] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:02:06] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:02:07] - [InsereBanco] - Fila com 9 registros!
+[18/09/2014 17:02:07] - insert into tbdados (`id`, `data`, `hora`, `lat`, `lon`, `sat`, `gps`, `cerca`, `vel`, `ign`, `pan`, `ent1`, `saidas1`, `msg`, `h_link`, `evento`, `ip`, `codigo`, `dataehora`, `endereco`, `antifurto`, `temp`, `outros`) values (67, null, null, '-1.297642', '-47.958932', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:21:20', 'Obtendo', null, null, null),(67, null, null, '-1.297642', '-47.958932', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:21:20', 'Obtendo', null, null, null),(67, null, null, '-1.297642', '-47.958932', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:21:20', 'Obtendo', null, null, null),(67, null, null, '-1.297642', '-47.958932', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:21:20', 'Obtendo', null, null, null),(67, null, null, '-1.297642', '-47.958932', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:21:20', 'Obtendo', null, null, null),(67, null, null, '-1.297642', '-47.958932', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:21:20', 'Obtendo', null, null, null),(67, null, null, '-1.297642', '-47.958932', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:21:20', 'Obtendo', null, null, null),(67, null, null, '-1.297642', '-47.958932', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:21:20', 'Obtendo', null, null, null),(67, null, null, '-1.297642', '-47.958932', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:21:20', 'Obtendo', null, null, null);
+[18/09/2014 17:02:07] - 
+----- Inserindo no Banco (9 registros para processar) -----
+Id=67 HoraMsg=2014-9-15 22:21:20 Sat=10
+Id=67 HoraMsg=2014-9-15 22:21:20 Sat=10
+Id=67 HoraMsg=2014-9-15 22:21:20 Sat=10
+Id=67 HoraMsg=2014-9-15 22:21:20 Sat=10
+Id=67 HoraMsg=2014-9-15 22:21:20 Sat=10
+Id=67 HoraMsg=2014-9-15 22:21:20 Sat=10
+Id=67 HoraMsg=2014-9-15 22:21:20 Sat=10
+Id=67 HoraMsg=2014-9-15 22:21:20 Sat=10
+Id=67 HoraMsg=2014-9-15 22:21:20 Sat=10
+
+[18/09/2014 17:02:07] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:02:07] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:02:07] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:02:07] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:02:08] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:02:08] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:02:12] - [InsereBanco] - Fila com 3 registros!
+[18/09/2014 17:02:12] - insert into tbdados (`id`, `data`, `hora`, `lat`, `lon`, `sat`, `gps`, `cerca`, `vel`, `ign`, `pan`, `ent1`, `saidas1`, `msg`, `h_link`, `evento`, `ip`, `codigo`, `dataehora`, `endereco`, `antifurto`, `temp`, `outros`) values (67, null, null, '-1.297642', '-47.958932', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:21:20', 'Obtendo', null, null, null),(67, null, null, '-1.297642', '-47.958932', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:21:20', 'Obtendo', null, null, null),(67, null, null, '-1.297642', '-47.958932', '10', 'Memoria', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 22:21:20', 'Obtendo', null, null, null);
+[18/09/2014 17:02:12] - 
+----- Inserindo no Banco (3 registros para processar) -----
+Id=67 HoraMsg=2014-9-15 22:21:20 Sat=10
+Id=67 HoraMsg=2014-9-15 22:21:20 Sat=10
+Id=67 HoraMsg=2014-9-15 22:21:20 Sat=10
+
+[18/09/2014 17:02:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:02:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:02:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:02:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:02:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:02:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:02:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:02:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:02:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:03:02] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:03:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:03:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:03:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:03:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:03:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:03:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:03:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:03:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:03:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:03:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:03:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:04:02] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:04:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:04:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:04:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:04:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:04:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:04:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:04:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:04:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:04:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:04:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:04:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:04:58] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:04:58] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:04:58] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:04:58] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:04:59] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:04:59] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:05:02] - [InsereBanco] - Fila com 3 registros!
+[18/09/2014 17:05:02] - insert into tbdados (`id`, `data`, `hora`, `lat`, `lon`, `sat`, `gps`, `cerca`, `vel`, `ign`, `pan`, `ent1`, `saidas1`, `msg`, `h_link`, `evento`, `ip`, `codigo`, `dataehora`, `endereco`, `antifurto`, `temp`, `outros`) values (351, null, null, '-1.291054', '-47.923462', '8', 'Atualizado', null, 1, 'Desligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-16 03:01:08', 'Obtendo', null, null, null),(351, null, null, '-1.291054', '-47.923462', '8', 'Atualizado', null, 1, 'Desligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-16 03:01:08', 'Obtendo', null, null, null),(351, null, null, '-1.291054', '-47.923462', '8', 'Atualizado', null, 1, 'Desligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-16 03:01:08', 'Obtendo', null, null, null);
+[18/09/2014 17:05:02] - 
+----- Inserindo no Banco (3 registros para processar) -----
+Id=351 HoraMsg=2014-9-16 03:01:08 Sat=8
+Id=351 HoraMsg=2014-9-16 03:01:08 Sat=8
+Id=351 HoraMsg=2014-9-16 03:01:08 Sat=8
+
+[18/09/2014 17:05:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:05:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:05:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:05:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:05:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:05:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:05:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:05:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:05:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:05:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:05:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:06:02] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:06:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:06:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:06:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:06:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:06:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:06:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:06:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:06:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:06:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:06:47] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:06:47] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:06:52] - [InsereBanco] - Fila com 1 registros!
+[18/09/2014 17:06:52] - insert into tbdados (`id`, `data`, `hora`, `lat`, `lon`, `sat`, `gps`, `cerca`, `vel`, `ign`, `pan`, `ent1`, `saidas1`, `msg`, `h_link`, `evento`, `ip`, `codigo`, `dataehora`, `endereco`, `antifurto`, `temp`, `outros`) values (193, null, null, '-10.193328', '-48.337317', '10', 'Atualizado', null, 0, 'Desligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-15 15:39:35', 'Obtendo', null, null, null);
+[18/09/2014 17:06:52] - 
+----- Inserindo no Banco (1 registros para processar) -----
+Id=193 HoraMsg=2014-9-15 15:39:35 Sat=10
+
+[18/09/2014 17:06:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:07:02] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:07:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:07:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:07:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:07:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:07:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:07:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:07:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:07:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:07:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:07:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:07:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:08:02] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:08:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:08:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:08:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:08:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:08:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:08:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:08:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:08:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:08:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:08:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:08:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:09:00] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:09:00] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:09:02] - [InsereBanco] - Fila com 1 registros!
+[18/09/2014 17:09:02] - insert into tbdados (`id`, `data`, `hora`, `lat`, `lon`, `sat`, `gps`, `cerca`, `vel`, `ign`, `pan`, `ent1`, `saidas1`, `msg`, `h_link`, `evento`, `ip`, `codigo`, `dataehora`, `endereco`, `antifurto`, `temp`, `outros`) values (500, null, null, '-1.295562', '-48.161154', '8', 'Atualizado', null, 0, 'Ligado', '0', '00000000000000000', '0000', 'Sem mensagem', null, null, null, null, '2014-9-16 13:13:21', 'Obtendo', null, null, null);
+[18/09/2014 17:09:02] - 
+----- Inserindo no Banco (1 registros para processar) -----
+Id=500 HoraMsg=2014-9-16 13:13:21 Sat=8
+
+[18/09/2014 17:09:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:09:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:09:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:09:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:09:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:09:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:09:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:09:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:09:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:09:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:09:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:10:02] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:10:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:10:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:10:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:10:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:10:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:10:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:10:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:10:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:10:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:10:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:10:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:11:02] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:11:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:11:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:11:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:11:19] - [ThreadPrincipal] Pacote recebido e enviado para a ThreadRecebePacote...
+[18/09/2014 17:11:19] - [ThreadPrincipal] Aguardando conexao...
+[18/09/2014 17:11:22] - [InsereBanco] - Fila com 1 registros!
+[18/09/2014 17:11:22] - insert into tbdados (`id`, `data`, `hora`, `lat`, `lon`, `sat`, `gps`, `cerca`, `vel`, `ign`, `pan`, `ent1`, `saidas1`, `msg`, `h_link`, `evento`, `ip`, `codigo`, `dataehora`, `endereco`, `antifurto`, `temp`, `outros`) values;
+[18/09/2014 17:11:22] - 
+----- Inserindo no Banco (1 registros para processar) -----
+Id=500 HoraMsg=2014-9-16 13:13:49 Sat=0 (Enviado para fila da memoria!)
+
+[18/09/2014 17:11:22] - --log-- [CALAMP] Inseri memoria Id=500
+[18/09/2014 17:11:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:11:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:11:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:11:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:11:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:11:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:11:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:12:02] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:12:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:12:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:12:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:12:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:12:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:12:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:12:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:12:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:12:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:12:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:12:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:13:02] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:13:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:13:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:13:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:13:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:13:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:13:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:13:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:13:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:13:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:13:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:13:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:14:02] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:14:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:14:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:14:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:14:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:14:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:14:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:14:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:14:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:14:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:14:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:14:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:15:02] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:15:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:15:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:15:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:15:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:15:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:15:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:15:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:15:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:15:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:15:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:15:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:16:02] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:16:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:16:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:16:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:16:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:16:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:16:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:16:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:16:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:16:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:16:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:16:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:17:02] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:17:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:17:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:17:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:17:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:17:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:17:32] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:17:37] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:17:42] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:17:47] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:17:52] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:17:57] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:18:02] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:18:07] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:18:12] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:18:17] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:18:22] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:18:27] - [InsereBanco] - Fila vazia!
+[18/09/2014 17:18:32] - [InsereBanco] - Fila vazia!

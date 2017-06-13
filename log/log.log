@@ -1,0 +1,6 @@
+5_6_17
+[05/06/2017 08:59:24] - Iniciando nova instancia do programa GatewayConcox...
+
+[05/06/2017 08:59:24] - Cannot run program "gzip": CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+[05/06/2017 08:59:25] - Started Server in http://127.0.0.1:9062/
+[05/06/2017 08:59:25] - Crtl + C para encerrar
