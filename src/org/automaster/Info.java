@@ -40,9 +40,11 @@ public abstract class Info {
     public static TreeMap<String, String> parametros = new TreeMap<>();
     public static Socket cliente;
     public static ObjectOutputStream oos;
+    public static TreeMap<Long, String> accCrx1 = new TreeMap<Long, String>();
 
     // URL de Comandos da API Hydra
-    private static final String urlHydra = "http://hydra.dipsystem.com.br/ws-command";
+//    private static final String urlHydra = "http://hydra.dipsystem.com.br/ws-command";
+    private static final String urlHydra = "http://104.131.86.187/ws-command";
     // Minha chave de acesso do Hydra Concox
     private static final String hashKey = "5efc3a30f1bd7caace5cd4e70b8bff38891ecd9a1a73f2fc27b6d9444dd26c38";
     //Agente responsável por enviar a requisição
@@ -79,7 +81,6 @@ public abstract class Info {
                 response.append(inputLine);
             }
             in.close();
-
             //print result
 //            System.out.println(response.toString());
             Gson gson = new Gson();

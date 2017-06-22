@@ -181,7 +181,11 @@ public class ThreadRecebeJson implements Runnable {
                         r.addParametro("satellites", Integer.parseInt(quantity_gps_satellites));
                         r.addParametro("speed", Integer.parseInt(speed));
                         r.addParametro("temperatura", null);
-                        r.addParametro("acc", acc);
+                        if (Info.accCrx1.containsKey(Long.parseLong(imei))) {
+                            r.addParametro("acc", Info.accCrx1.get(Long.parseLong(imei)));
+                        } else {
+                            r.addParametro("acc", acc);
+                        }
                         r.addParametro("dataHora", dataSql);
                         r.addParametro("direcao", Integer.parseInt(course));
                         r.addParametro("memoria", gps_real_time);
@@ -220,8 +224,13 @@ public class ThreadRecebeJson implements Runnable {
 //                    Info.filaLog.add("longitude_hemisphere: " + longitude_hemisphere);
                     String latitude_hemisphere = String.valueOf(dataObj.get("latitude_hemisphere"));
 //                    Info.filaLog.add("latitude_hemisphere: " + latitude_hemisphere);
-                    String acc = (String.valueOf(dataObj.get("acc")) == null || String.valueOf(dataObj.get("acc")).equalsIgnoreCase("0")) ? "false" : (String.valueOf(dataObj.get("acc")).equalsIgnoreCase("0") ? "false" : "true");
-//                    Info.filaLog.add("acc: " + acc); // (1) = Ligado; (0) = Desligado; 
+                    String acc = null;
+                    if(protocolNumber.equalsIgnoreCase("22")){
+                        acc = String.valueOf(dataObj.get("acc")).equalsIgnoreCase("0") ? "false" : "true";
+                    }else {
+                        acc = (String.valueOf(dataObj.get("acc")) == null || String.valueOf(dataObj.get("acc")).equalsIgnoreCase("0")) ? "false" : (String.valueOf(dataObj.get("acc")).equalsIgnoreCase("0") ? "false" : "true");
+                    }
+                    Info.filaLog.add("ACC 18 : " + dataObj.get("acc")+" IMEI 18: "+imei); // (1) = Ligado; (0) = Desligado; 
                     String lac = String.valueOf(dataObj.get("lac")); // código de área da torre que ele usuou pra se comunicar
 //                    Info.filaLog.add("lac[código de área da torre de comunicação]: " + lac);
                     String speed = String.valueOf(dataObj.get("speed"));
@@ -248,7 +257,11 @@ public class ThreadRecebeJson implements Runnable {
                         r.addParametro("satellites", Integer.parseInt(quantity_gps_satellites));
                         r.addParametro("speed", Integer.parseInt(speed));
                         r.addParametro("temperatura", null);
-                        r.addParametro("acc", acc);
+                        if (Info.accCrx1.containsKey(Long.parseLong(imei))) {
+                            r.addParametro("acc", Info.accCrx1.get(Long.parseLong(imei)));
+                        } else {
+                            r.addParametro("acc", acc);
+                        }
                         r.addParametro("dataHora", dataSql);
                         r.addParametro("direcao", Integer.parseInt(course));
                         r.addParametro("memoria", gps_real_time);
@@ -318,6 +331,7 @@ public class ThreadRecebeJson implements Runnable {
                         TreeMap<String, String> ultimaPosicao = ComandoBancoPostgresSQL.buscarUltimaPosicaoID(imei);
                         if (ultimaPosicao != null && acc != null) {
                             String accOff = acc.equalsIgnoreCase("0") ? "false" : "true";
+                            Info.accCrx1.put(Long.parseLong(imei), accOff);
                             Registro r = new Registro();
                             r.addParametro("modelo", "Concox");
                             r.addParametro("id", Long.parseLong(imei));
@@ -342,10 +356,12 @@ public class ThreadRecebeJson implements Runnable {
                             r.addParametro("dataHora", dataSql);
                             r.addParametro("direcao", Integer.parseInt("0"));
                             r.addParametro("memoria", ultimaPosicao.get("gps"));
-                            TreeMap<String, String> motorista = ComandoBancoPostgresSQL.buscarMotorista(imei);
-                            Info.filaLog.add("Id=" + imei + " Motorista=" + motorista.get("codMotorista"));
-                            r.addParametro("motorista", motorista.get("codMotorista"));
-                            Info.filaDeRegistrosExternos.add(r);
+                            if (!Boolean.parseBoolean(ultimaPosicao.get("ign")) && !Boolean.parseBoolean(accOff)) {
+                                TreeMap<String, String> motorista = ComandoBancoPostgresSQL.buscarMotorista(imei);
+                                Info.filaLog.add("Id=" + imei + " Motorista=" + motorista.get("codMotorista"));
+                                r.addParametro("motorista", motorista.get("codMotorista"));
+                                Info.filaDeRegistrosExternos.add(r);
+                            }
                             Info.filaLog.add("Protocolo: " + protocolNumber + " Imei: " + imei + " Modelo: " + model + " Lat: " + ultimaPosicao.get("lat") + " Lon: " + ultimaPosicao.get("lon") + " Sat: " + ultimaPosicao.get("sat") + " speed: 0 acc: " + acc + " data: " + dataSql + " direção: 0 GPS: " + ultimaPosicao.get("gps"));
                             if (Info.comandosHydra.containsKey(Long.parseLong(imei))) {
                                 String command_id = String.valueOf(Info.comandosHydra.get(Long.parseLong(imei)));

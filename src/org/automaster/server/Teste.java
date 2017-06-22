@@ -14,7 +14,6 @@ import java.io.DataOutputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.sql.Timestamp;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -23,7 +22,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.automaster.Info;
 import org.automaster.Util;
-import org.automaster.db.ComandoBancoPostgresSQL;
 
 
 
@@ -34,7 +32,8 @@ import org.automaster.db.ComandoBancoPostgresSQL;
 public class Teste {
     
     // URL de Comandos da API Hydra
-    private static final String urlHydra = "http://hydra.dipsystem.com.br/ws-command";
+//    private static final String urlHydra = "http://hydra.dipsystem.com.br/ws-command";
+    private static final String urlHydra = "http://104.131.86.187/ws-command";
     // Minha chave de acesso do Hydra Concox
     private static final String hashKey = "5efc3a30f1bd7caace5cd4e70b8bff38891ecd9a1a73f2fc27b6d9444dd26c38";
     private static final String USER_AGENT = "Mozilla/5.0";
@@ -45,8 +44,8 @@ public class Teste {
 //        System.out.println("Data padrão America/Belem: "+formatarDataHora(data));
 //        System.out.println("Data Atual SQL: "+formatarDataHoraSQL(formatarDataHora(data)));
         try {
-//            sendPost("351608083818943", "Desbloquear");
-            sendGet("351608083818943", "199");
+            sendPost("351608083818117", "Desbloquear");
+//            sendGet("351608083818943", "199");
 //            ComandoBancoPostgresSQL.verificaComandos();
         } catch (Exception e) {
             System.out.println("Error 01: "+e.toString());
@@ -129,9 +128,9 @@ public class Teste {
             wr.close();
 
             int responseCode = con.getResponseCode();
-//            System.out.println("\nSending 'POST' request to URL : " + urlHydra);
-//            System.out.println("Post parameters : " + urlParameters);
-//            System.out.println("Response Code : " + responseCode);
+            System.out.println("\nSending 'POST' request to URL : " + urlHydra);
+            System.out.println("Post parameters : " + urlParameters);
+            System.out.println("Response Code : " + responseCode);
 
             BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
             String inputLine;
@@ -151,9 +150,11 @@ public class Teste {
                 int comando_id = jsonObj.get("command_id").getAsInt();
                 String msg = jsonObj.get("msg").getAsString();
                 boolean sucess = jsonObj.get("success").getAsBoolean();
-//                System.out.println("MSG: "+jsonObj.get("msg").getAsString());
-//                System.out.println("SUCESS: "+jsonObj.get("success").getAsBoolean());
-//                System.out.println("Command_ID: "+comando_id);
+                System.out.println("MSG: "+jsonObj.get("msg").getAsString());
+                System.out.println("SUCESS: "+jsonObj.get("success").getAsBoolean());
+                System.out.println("Command_ID: "+comando_id);
+            } else {
+                System.out.println("JSON: "+jsonObj);
             }
         } catch (Exception e) {
             Info.filaLog.add("Error [sendPost]: "+e.toString());
