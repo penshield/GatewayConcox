@@ -156,7 +156,7 @@ public class ComandoBancoPostgresSQL {
         TreeMap<String, String> registro = new TreeMap<String, String>();
         try {
             Statement prepara = conexao.createStatement();
-            ResultSet resultado = prepara.executeQuery("select ud.ign, ud.dataehora, ud.lat, ud.lon, ud.sat, ud.gps from public.ultimos_200 ud \n"
+            ResultSet resultado = prepara.executeQuery("select ud.vel, ud.ign, ud.dataehora, ud.lat, ud.lon, ud.sat, ud.gps from public.ultimos_200 ud \n"
                     + "join veiculo v on v.cod_veiculo=ud.veiculo_cod_veiculo \n"
                     + "join equipamento e on e.cod_equipamento=v.equipamento_cod_equipamento\n"
                     + "where id='" + id + "' order by dataehora desc limit 1;");
@@ -167,6 +167,7 @@ public class ComandoBancoPostgresSQL {
                 registro.put("sat", String.valueOf(resultado.getInt("sat")));
                 registro.put("gps", String.valueOf(resultado.getInt("gps")));
                 registro.put("ign", String.valueOf(resultado.getBoolean("ign")));
+                registro.put("vel", String.valueOf(resultado.getInt("vel")));
                 resultado.close();
                 prepara.close();
                 return registro;

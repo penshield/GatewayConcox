@@ -347,16 +347,13 @@ public class ThreadRecebeJson implements Runnable {
                             long dataBd = Long.parseLong(ultimaPosicao.get("dataHora"));
                             long dataDesligado = dataBd + 60000;
                             String dataSql = "";
-//                            if (Boolean.parseBoolean(acc)) {
-//                                dataSql = formatadorData.format(new Date(dataDesligado));
-//                            } else {
                             dataSql = formatadorData.format(new Date(System.currentTimeMillis()));
 //                            }
 //                            Info.filaLog.add("Data SQL: " + dataSql);
                             r.addParametro("dataHora", dataSql);
                             r.addParametro("direcao", Integer.parseInt("0"));
                             r.addParametro("memoria", ultimaPosicao.get("gps"));
-                            if (!Boolean.parseBoolean(ultimaPosicao.get("ign")) && !Boolean.parseBoolean(accOff)) {
+                            if (!Boolean.parseBoolean(ultimaPosicao.get("ign")) && Integer.parseInt(ultimaPosicao.get("vel")) < 4 && !Boolean.parseBoolean(accOff)) {
                                 TreeMap<String, String> motorista = ComandoBancoPostgresSQL.buscarMotorista(imei);
                                 Info.filaLog.add("Id=" + imei + " Motorista=" + motorista.get("codMotorista"));
                                 r.addParametro("motorista", motorista.get("codMotorista"));
