@@ -484,7 +484,7 @@ public class ThreadRecebeJson implements Runnable {
                         }
                     }
                 } else {
-                    Info.filaLog.add("dados: " + dataObj);
+                    Info.filaLog.add("DADOS ELSE: " + dataObj);
                     if (Info.comandosHydra.containsKey(Long.parseLong(imei))) {
                         String command_id = String.valueOf(Info.comandosHydra.get(Long.parseLong(imei)));
                         TreeMap<String, String> responseCmd = Info.sendGet(imei, command_id);
