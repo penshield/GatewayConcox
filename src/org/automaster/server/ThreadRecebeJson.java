@@ -182,9 +182,17 @@ public class ThreadRecebeJson implements Runnable {
                         r.addParametro("speed", Integer.parseInt(speed));
                         r.addParametro("temperatura", null);
                         if (Info.accCrx1.containsKey(Long.parseLong(imei))) {
+                            if(Integer.parseInt(speed) > 3){
+                                r.addParametro("acc", "true");
+                            }else {
                             r.addParametro("acc", Info.accCrx1.get(Long.parseLong(imei)));
+                            }
                         } else {
+                            if(Integer.parseInt(speed) > 3){
+                                r.addParametro("acc", "true");
+                            }else {
                             r.addParametro("acc", acc);
+                            }
                         }
                         r.addParametro("dataHora", dataSql);
                         r.addParametro("direcao", Integer.parseInt(course));
@@ -225,7 +233,7 @@ public class ThreadRecebeJson implements Runnable {
                     String latitude_hemisphere = String.valueOf(dataObj.get("latitude_hemisphere"));
 //                    Info.filaLog.add("latitude_hemisphere: " + latitude_hemisphere);
                     String acc = null;
-                    if(protocolNumber.equalsIgnoreCase("22")){
+                    if(dataObj.has("acc")){
                         acc = String.valueOf(dataObj.get("acc")).equalsIgnoreCase("0") ? "false" : "true";
                     }else {
                         acc = (String.valueOf(dataObj.get("acc")) == null || String.valueOf(dataObj.get("acc")).equalsIgnoreCase("0")) ? "false" : (String.valueOf(dataObj.get("acc")).equalsIgnoreCase("0") ? "false" : "true");
@@ -258,9 +266,17 @@ public class ThreadRecebeJson implements Runnable {
                         r.addParametro("speed", Integer.parseInt(speed));
                         r.addParametro("temperatura", null);
                         if (Info.accCrx1.containsKey(Long.parseLong(imei))) {
+                            if(Integer.parseInt(speed) > 3){
+                                r.addParametro("acc", "true");
+                            }else {
                             r.addParametro("acc", Info.accCrx1.get(Long.parseLong(imei)));
+                            }
                         } else {
-                            r.addParametro("acc", acc);
+                            if (Integer.parseInt(speed) > 3) {
+                                r.addParametro("acc", "true");
+                            } else {
+                                r.addParametro("acc", acc);
+                            }
                         }
                         r.addParametro("dataHora", dataSql);
                         r.addParametro("direcao", Integer.parseInt(course));
@@ -353,7 +369,7 @@ public class ThreadRecebeJson implements Runnable {
                             r.addParametro("dataHora", dataSql);
                             r.addParametro("direcao", Integer.parseInt("0"));
                             r.addParametro("memoria", ultimaPosicao.get("gps"));
-                            if (!Boolean.parseBoolean(ultimaPosicao.get("ign")) && Integer.parseInt(ultimaPosicao.get("vel")) < 4 && !Boolean.parseBoolean(accOff)) {
+                            if (!Boolean.parseBoolean(ultimaPosicao.get("ign")) && Integer.parseInt(ultimaPosicao.get("vel")) < 3 && !Boolean.parseBoolean(accOff)) {
                                 TreeMap<String, String> motorista = ComandoBancoPostgresSQL.buscarMotorista(imei);
                                 Info.filaLog.add("Id=" + imei + " Motorista=" + motorista.get("codMotorista"));
                                 r.addParametro("motorista", motorista.get("codMotorista"));
